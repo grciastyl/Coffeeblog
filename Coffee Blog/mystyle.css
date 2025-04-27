@@ -11,7 +11,10 @@ p{
 img{
     max-width: 100%;
 }
-a{text-decoration:none;
+a{text-decoration:none;color: white;
+}
+.h2{
+    padding-top: 1px;
 }
 /*utilities*/
 .container{
@@ -22,7 +25,7 @@ a{text-decoration:none;
 .btn{
     display: block;
     text-decoration: none;
-    width: 100px;
+    width: 175px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -38,7 +41,6 @@ a{text-decoration:none;
 .btn-more{
     background-color: brown;
     color: white;
-    
 }
 .btn-footer{
     display: inline;
@@ -71,7 +73,8 @@ a{text-decoration:none;
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    
+    color:white;
+
 }
 .menu a{
     color: white;
@@ -96,6 +99,8 @@ margin-right: 30px;
 .aboutheader-container{
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .cups-container{
     width: 50%;
@@ -103,6 +108,62 @@ margin-right: 30px;
 }
 .about-container{
     width: 50%;
+}
+
+
+/*contact*/ 
+.container{
+    padding-top: 30px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 60%;
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    margin-top: -50px;
+
+}
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.input-container label{
+    width: 20%;
+}
+.input-container input, .input-container textarea{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 60%;
+}
+
+/*courses*/
+.main-container{
+    padding-top: 30px;
+    padding-left: 50px;
+    line-height: 4;
+}
+.classes-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.classtype-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding-bottom: 20px;
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 80Px;
 }
 
 /*footer*/
